@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body {
+    display: flex;
+    padding: 2rem;
+    background-color: #F3EFE0;
+    font-family: 'Roboto Condensed', sans-serif;
+    place-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.App {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.input__country {
+    width: 100px;
+
+}
